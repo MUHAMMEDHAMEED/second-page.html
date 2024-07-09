@@ -26,25 +26,13 @@
     margin-top:1em;
 }
 .h3{
+    position: absolute;
     font-size: 60px;
     padding-bottom: 20px;
     color: #173c62;
+    margin-top:-2em;
 }
-h2 {
-    display: flex;
-    flex-direction: row;
-  }
-  h2:before, h2:after{
-    content: "";
-    flex: 1 1;
-    border-bottom: 1px solid;
-    margin: 15em 15em;
-    color:#fff;
-    margin-top: 10em;
-  }
-  .or{
-    padding-top:3em;
-  }
+
 
     
   
@@ -63,6 +51,7 @@ h2 {
   }
   .final{
     background:rgba(37,70,94,255);
+    backdrop-filter: blur(10px);
     margin-left: 44px;
     margin-top: -3em;
     margin-right: 44px;
@@ -76,3 +65,24 @@ h2 {
     padding-left: 53%;
     color: #fff;
 }
+.form-control.form-control-lg {
+    position: absolute;
+    display: block;
+    width: 88%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #ced4da;
+    margin-top: -4em;
+    margin-left: 4em;
+  }
+
+  .form-control.form-control-lg::placeholder {
+    color: #6c757d;
+    opacity: 1;
+  }
+  .form-control form-control-lg{
+    position: absolute;
+    z-index:100;
+    text-align: center;
+  }
